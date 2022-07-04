@@ -61,7 +61,7 @@ function App() {
       })
     );
   }
-  //need access to oldNice, so uses an arrow function. use map method to return a new array from the function. it goes through every die object. Each die has a unique id. If the die that is clicked on has the same id as the die object, the isHeld property is flipped from true to false (and vice-versa) and the background-color changes due to ternary operator in the die component. Otherwise the color remains the same
+  //need access to oldNice, so uses an arrow function. use map method to return a new array from the function. it goes through every die object. Each die has a unique id. If the die that is clicked on has the same id as the die object, the isHeld property is flipped from true to false (and vice-versa) and the background-color changes because of the ternary operator in the die component. Otherwise the color remains the same
 
   const diceELements = dice.map((die) => {
     return (
