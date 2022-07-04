@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+/* .container {
+} */
+/* 
+me trying out styles
+.square {
+  margin: auto;
+  width: 320px;
+   width: 70%:
+  height: 320px;
+  background-color: #f5f5f5;
+  left: 20px;
+  top: 20px;
+  border-radius: 10px;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #0b2434;
+  margin: 5%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  /* font-family: "Karla", sans-serif; */
+  font-family: "Karla", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main {
+  background-color: #f5f5f5;
+  height: 400px;
+  max-width: 600px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  min-width: 400px;
 }
 
-.App-link {
-  color: #61dafb;
+.dice-container {
+  width: 80%;
+  /* height: 40%; */
+  /* width: 100%; */
+  /* min-width: 400px;
+  min-height: 300px; */
+  /* background: green; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.roll-button {
+  height: 50px;
+  width: 150px;
+  /* margin-top: 5%; */
+  background-color: #5035ff;
+  border: none;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.18);
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 40px;
+  margin: 0;
+}
+
+.instructions {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+  text-align: center;
+  width: 80%;
 }
